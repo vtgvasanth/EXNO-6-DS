@@ -1,4 +1,4 @@
-[# EXNO-6-DS-DATA VISUALIZATION USING SEABORN LIBRARY
+# EXNO-6-DS-DATA VISUALIZATION USING SEABORN LIBRARY
 
 # Aim:
   To Perform Data Visualization using seaborn python library for the given datas.
@@ -18,180 +18,75 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
- ```
-import seaborn as sns
-import matplotlib.pyplot as plt
-x=[1,2,3,4,5]
-y=[3,6,2,7,1]
-sns.lineplot(x=x,y=y)
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/6b53da20-2502-4385-aac7-98f1f3befd8a)
-```
-df=sns.load_dataset('tips')
-df
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/fdd20d4d-83e2-4d72-826e-261da338cefb)
+ <img width="949" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/345d9f74-8e7b-4eeb-883c-ab251e02ab56">
+ <img width="955" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/b17d99e6-665a-4e17-96f1-4e79870d0b4c">
+ <img width="955" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/92eafe82-9f17-4010-8ae5-c11029e4f242">
+ <img width="956" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/e64f2d81-0afa-4575-b229-20361426caf5">
+ <img width="947" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/a11f1184-60dc-4b7e-a072-91db75f940d6">
+ <img width="957" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/48933057-05af-4b3c-88fc-912676604508">
+ <img width="960" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/c5515f77-f0c6-4f6d-88b6-ac7a42b46841">
+ <img width="956" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/77c181e5-b2cc-4cf0-bae7-88b1657ff09a">
+ <img width="947" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/e80e3c75-d4ae-4a60-a392-75e4e1720415">
+ <img width="953" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/1be46dc1-9fbf-47ce-aa10-914a06b22aac">
+ <img width="951" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/7e9a53d6-7df8-4401-96d8-04e264732a68">
+ <img width="952" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/1d20bd44-c0bd-4546-aa1e-3eb93753de01">
+ <img width="953" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/afa30ffa-7276-4578-8e5f-ff495ab4895a">
+ <img width="950" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/58ab7d87-5558-4508-bbec-617656cf1ae4">
+ <img width="955" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/2a3779ad-8d59-4545-8ff2-4e4454db3878">
+ <img width="952" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/ca8dc3ab-4911-4453-bc88-071fb250e675">
+ <img width="949" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/fce592aa-8fc7-49a7-bf9b-067891f0032a">
+ <img width="952" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/76158afa-2782-4898-9c17-4fe53786fe44">
+ <img width="954" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/0900b189-d883-4d0f-93a6-0d6e913b827c">
+ <img width="950" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/b77be813-e802-4167-8f29-c86d4ea8dd4e">
+ <img width="951" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/747e0d49-5844-469f-b65a-6ec1b2cdfaca">
+ <img width="950" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/4e7b0535-20b1-44b1-b535-c00df27a2d99">
+ <img width="941" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/ef2fbaf7-1b34-4131-a6f7-113960b080c4">
+ <img width="951" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/d6389e90-1c03-4df5-93fc-df959f5a8a47">
+ <img width="948" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/11f79888-a28d-43b4-901f-acf65630ea2d">
+ <img width="953" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/bd9944ca-737a-4b3d-98e4-5b9f047a9363">
+ <img width="956" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/d0f05eb2-80db-47dc-ab62-7a637f01889f">
+ <img width="955" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/b46483ea-ef88-4bd1-97da-2287b46fc646">
+ <img width="957" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/3efc5edd-c80d-48e9-85be-ade70e719365">
+ <img width="957" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/72afb06f-a087-4728-bc88-f704a3692c0f">
+ <img width="951" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/7a0c97d5-2803-451c-9804-ff7f393ddff4">
+ <img width="959" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/6c45f5fe-6cdb-4d23-abe8-df623c9ce3ca">
+ <img width="958" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/31fecfb5-dd5b-4cf5-b96c-533e07069c77">
+ <img width="939" alt="image" src="https://github.com/1808charitha/EXNO-6-DS/assets/132996838/dff34943-b0ea-4c1f-bb97-aad2831fab2f">
+ 
 
-```
-sns.lineplot(x='total_bill',y='tip',data=df,hue='sex',linestyle='solid',legend='auto')
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/ea007708-1d9e-42f9-9985-952d60f38f30)
-```
-x=[1,2,3,4,5]
-y1=[3,5,2,6,1]
-y2=[1,6,4,3,8]
-y3=[5,2,7,1,4]
-sns.lineplot(x=x,y=y1)
-sns.lineplot(x=x,y=y2)
-sns.lineplot(x=x,y=y3)
-plt.title('Multi-Line Plot')
-plt.xlabel('X Label')
-plt.ylabel('Y Lbel')
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/62278204-c402-4521-8756-a4c3cfe074db)
-```
-import seaborn as sns
-import matplotlib.pyplot as plt
-tips=sns.load_dataset('tips')
-avg_total_bill=tips.groupby('day')['total_bill'].mean()
-avg_tip=tips.groupby('day')['tip'].mean()
-plt.figure(figsize=(8,6))
-p1=plt.bar(avg_total_bill.index,avg_total_bill,label='Total Bill')
-p2=plt.bar(avg_tip.index,avg_tip,bottom=avg_total_bill,label='Tip')
-plt.xlabel('Day of the Week')
-plt.ylabel('Amount')
-plt.title("Average Total Bill and Tip by Day")
-plt.legend()
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/9a8c998c-c0e6-4a1b-ba1f-9087a80f8311)
-```
-avg_total_bill=tips.groupby('time')['total_bill'].mean()
-avg_tip=tips.groupby('time')['tip'].mean()
-p1=plt.bar(avg_total_bill.index,avg_total_bill,label='Total Bill',width=0.4)
-p2=plt.bar(avg_tip.index,avg_tip,bottom=avg_total_bill,label='Tip',width=0.4)
-plt.xlabel('Time of Day')
-plt.ylabel('Amount')
-plt.title('Average Total Bill and Tip by Time of Day')
-plt.legend()
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/25e9d270-63d1-46a2-903f-368eee6c7415)
-```
-years=range(2000, 2012)
-apples=[0.895, 0.91, 0.919, 0.926, 0.929, 0.931, 0.934, 0.936, 0.937, 0.9375, 0.9372, 0.939] 
-oranges = [0.962, 0.941, 0.930, 0.923, 0.918, 0.908, 0.907, 0.904, 0.901, 0.898, 0.9, 0.896, ]
-plt.bar(years, apples)
-plt.bar(years, oranges, bottom=apples)
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/b78f792c-8825-4040-bc74-2bc9aeb004e8)
-```
-import seaborn as sns
-dt= sns.load_dataset('tips')
-# Bar plot with hue parameter
-sns.barplot(x='day', y='total_bill', hue='sex', data=dt, palette='Set1')
-plt.xlabel('Day of the week')
-plt.ylabel('Total Bill')
-plt.title('Total Bill by Day and Gender')
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/8f73de4f-93b9-48ea-9ea4-b167e921c46f)
-```
-tit=pd.read_csv("titanic_dataset.csv")
-tit
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/5fe92a80-b36e-412c-bd3a-6c55605e8d9a)
-```
-plt.figure(figsize=(8,5))
-sns.barplot(x='Embarked', y='Fare', data=tit, palette='rainbow') 
-plt.title("Fare of Passenger by Embarked Town")
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/50f6b48b-4e0f-48f2-b9a0-4ebd92538bbd)
-```
-plt.figure(figsize=(8,5))
-sns.barplot(x='Embarked', y='Fare', data=tit, palette='rainbow', hue='Pclass') 
-plt.title("Fare of Passenger by Embarked Town, Divided by Class")
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/51cfb849-da47-4dd4-9016-15526fac6649)
-```
-import seaborn as sns
-tips=sns.load_dataset('tips')
-sns.scatterplot(x='total_bill',y='tip',hue='sex',data=tips)
-plt.xlabel('Total Bill')
-plt.ylabel('Tip Amount')
-plt.title('Scatter Plot of Total Bill vs. Tip Amount')
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/31bfecc2-5e1f-42fe-978d-8c93a3031519)
-```
-num_var = np.random.randn(1000)
-num_var=pd.Series(num_var, name = "Numerical variable")
-num_var
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/f1a7429c-32bb-42bb-ab7f-f78338f2e60b)
-```
-sns.histplot(data = num_var, kde = True)
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/b92fbcc3-35e3-4eb5-9f42-71302555e061)
-```
-df=pd.read_csv("titanic_dataset.csv")
-sns.histplot(data=df,x="Pclass", hue="Survived", kde=True)
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/15d431e2-45f8-4aaf-bd09-a09293fe45c3)
-```
-tips=sns.load_dataset('tips')
-sns.boxplot(x=tips['day'], y=tips ['total_bill'], hue=tips['sex'])
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/bd0c4516-7f6f-4e74-a8fd-9828f561479e)
-```
-sns.boxplot(x="day", y="total_bill", hue="smoker", data=tips, linewidth=2, width=0.6, boxprops={"facecolor": "lightblue", "edgecolor": "darkblue"},
-whiskerprops={"color": "black", "linestyle": "--", "linewidth": 1.5}, capprops={"color": "black", "linestyle": "--", "linewidth": 1.5})
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/e6097c2a-2000-435b-baa6-25d5a4f871ee)
-```
-sns.violinplot(x="day", y="total_bill", hue="smoker", data=tips, linewidth=2, width=0.6,
-palette="Set3", inner="quartile")
-plt.xlabel("Day of the week")
-plt.ylabel("Total Bill")
-plt.title("Violin Plot of Total Bill by Day and Smoker Status")
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/0aa05fec-1331-4a9f-a6b7-1d7382d830ad)
-```
-mart=pd.read_csv("titanic_dataset.csv")
-mart
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/9625f124-7646-4a9b-ba5f-1436dd70f60a)
-```
-mart=mart[['PassengerId', 'Survived', 'Age', 'Name', 'Ticket', 'Embarked']] 
-mart.head(10)
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/274f0dd5-db9e-4627-af64-d1492e8d59e0)
-```
-sns.kdeplot(data=mart,x='PassengerId')
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/ca789b30-eb66-480b-9aae-fd3624ffe652)
-```
-sns.kdeplot(data=mart,x='Age')
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/ac7ea457-9bb0-4892-8e4d-a0cdc9584696)
-```
-sns.kdeplot(data=mart)
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/8ff7b89b-420a-487c-9128-d487e6b0954b)
-```
-sns.kdeplot(data=mart,x='PassengerId',hue='Survived',multiple='stack')
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/51ae93b7-e5e1-4bc4-ab02-c18789adefa0)
-```
-sns.kdeplot(data=mart,x='PassengerId',y='Survived')
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/a33e47db-3c01-42ec-aa4c-32de42bfa024)
-```
-data = np.random.randint(low = 1, high = 100, size = (10,10))
-hm=sns.heatmap(data=data,annot=True)
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/f9e5c308-2b66-4e1a-aa44-2129179bd8ef)
-```
-hm=sns.heatmap(data=data)
-```
-![image](https://github.com/22008650/EXNO-6-DS/assets/122548204/180369ae-c880-4a67-98d0-4e60af889b8c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Result:
  Thus, all the data visualization techniques of seaborn has been implemented.
-](https://github.com/vtgvasanth/EXNO-6-DS.git)
